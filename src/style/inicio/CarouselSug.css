@@ -1,0 +1,77 @@
+.carouselTitle {
+  font-family: 'Playfair Display', serif;
+  padding: 1% 3%;
+  font-size: 1.6em;
+}
+
+.cardImage {
+  width: 100%;
+  height: 230px;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 160px;
+}
+
+.authorP,
+.dataP {
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* CAROUSEL HOME */
+
+.carousel {
+  border-top: 5px solid rgb(231, 231, 231);
+}
+
+/*
+.card:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.1);
+} */
+
+/* MEDIA QUERYS */
+
+@media (max-width: 400px) {
+
+  .carouselTitle {
+    text-align: center;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+ 
+
+  .types {
+    flex-direction: column;
+    margin: 0 auto
+  }
+}
+
+
+@media (max-width: 600px) {
+
+
+}
+
+@media (max-width: 650px) {
+ 
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 1000px) {
+
+}
